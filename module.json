@@ -1,0 +1,32 @@
+{
+  "id": "witcher-ttrpg-magic",
+  "title": "Witcher TTRPG Magic",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "TheWitcherTRPG",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "All magic spells, invoations, rituals and hexes from all official Witcher TRPG publications.",
+  "packs": [
+    {
+      "name": "magic",
+      "label": "magic",
+      "path": "packs/magic",
+      "type": "Item",
+      "system": "TheWitcherTRPG",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
