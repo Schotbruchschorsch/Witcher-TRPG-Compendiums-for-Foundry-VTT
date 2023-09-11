@@ -15,11 +15,10 @@
       }
     ]
   },
-  "description": "Witcher TTRPG Magic for Foundry VTT An english language Witcher TTRPG Compendium für FoundryVTT. Contains all Spells, Invocations, Rituals, Hexes, Signs and Magic Gifts from all official publications by R. Talsorian Games.\n\nNeeds https://github.com/AnthonyMonette/TheWitcherTRPG.git to work.",
+  "description": "Witcher TTRPG Magic for Foundry VTT An english language Witcher TTRPG Compendium für FoundryVTT. Contains all Spells, Invocations, Rituals, Hexes, Signs and Magic Gifts from all official publications by R. Talsorian Games.\n\nNeeds https://github.com/AnthonyMonette/TheWitcherTRPG to work.",
   "authors": [
     {
-      "name": "Schotbruchschorsch",
-      "flags": {}
+      "name": "Schotbruchschorsch"
     }
   ],
   "url": "https://github.com/Schotbruchschorsch/Foundry-Witcher-Magic/tree/Latest#foundry-witcher-magic",
@@ -29,12 +28,11 @@
       "label": "Magic",
       "path": "packs/magic",
       "type": "Item",
+      "system": "TheWitcherTRPG",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "TheWitcherTRPG",
-      "flags": {}
+      }
     }
   ]
 }
