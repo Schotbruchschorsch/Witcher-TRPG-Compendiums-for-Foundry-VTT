@@ -1,7 +1,11 @@
 {
-  "id": "witcher-ttrpg-magic",
+  "id": "witcher-trpg-compendiums",
   "title": "Witcher TTRPG Magic",
   "version": "1.0.0",
+  "description": "An english language collection of Compendiums for the Witcher TRPG. Needs https://github.com/AnthonyMonette/TheWitcherTRPG to work.",
+  "url": "https://github.com/Schotbruchschorsch/Foundry-Witcher-Magic",
+  "download": "https://github.com/Schotbruchschorsch/Foundry-Witcher-Magic/releases/latest/download/module.zip",
+  "manifest": "https://github.com/Schotbruchschorsch/Foundry-Witcher-Magic/releases/latest/download/module.json",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -15,13 +19,13 @@
       }
     ]
   },
-  "description": "Witcher TTRPG Magic for Foundry VTT An english language Witcher TTRPG Compendium für FoundryVTT. Contains all Spells, Invocations, Rituals, Hexes, Signs and Magic Gifts from all official publications by R. Talsorian Games.\n\nNeeds https://github.com/AnthonyMonette/TheWitcherTRPG to work.",
   "authors": [
     {
-      "name": "Schotbruchschorsch"
+      "name": "Schotbruchschorsch",
+      "discord": ".spezifish",
+      "flags": {}
     }
   ],
-  "url": "https://github.com/Schotbruchschorsch/Foundry-Witcher-Magic/tree/Latest#foundry-witcher-magic",
   "packs": [
     {
       "name": "magic",
@@ -32,7 +36,56 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
+    },
+    {
+      "name": "inventory",
+      "label": "Inventory",
+      "path": "packs/inventory",
+      "type": "Item",
+      "system": "TheWitcherTRPG",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "mage-character-generator",
+      "label": "Mage Character Generator",
+      "path": "packs/mage-character-generator",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "TheWitcherTRPG",
+      "flags": {}
+    },
+    {
+      "name": "gm-tables",
+      "label": "GM Tables",
+      "path": "packs/gm-tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "TheWitcherTRPG",
+      "flags": {}
+    },
+    {
+      "name": "professions-and-races",
+      "label": "Professions & Races",
+      "path": "packs/professions-and-races",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "TheWitcherTRPG",
+      "flags": {}
     }
   ]
 }
