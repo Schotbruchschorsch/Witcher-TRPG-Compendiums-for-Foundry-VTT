@@ -3,7 +3,7 @@
   "title": "Witcher TTRPG Magic",
   "version": "1.0.0",
   "description": "An english language collection of Compendiums for the Witcher TRPG. Needs https://github.com/AnthonyMonette/TheWitcherTRPG to work.",
-  "url": "https://github.com/Schotbruchschorsch/Foundry-Witcher-Magic",
+  "url": "https://github.com/Schotbruchschorsch/Witcher-TRPG-Compendiums-for-Foundry-VTT",
   "download": "https://github.com/Schotbruchschorsch/Foundry-Witcher-Magic/releases/latest/download/module.zip",
   "manifest": "https://github.com/Schotbruchschorsch/Foundry-Witcher-Magic/releases/latest/download/module.json",
   "compatibility": {
